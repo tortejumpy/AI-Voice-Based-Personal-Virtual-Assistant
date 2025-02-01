@@ -4,7 +4,7 @@ import speech_recognition as sr  # For speech recognition
 from googletrans import Translator  # For translation
 
 # Google Generative AI configuration
-GOOGLE_API_KEY = 'AIzaSyDf-VEYRH7-SpkhyRe64NlzWj4DKDj_LgY'
+GOOGLE_API_KEY = ''
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 chat = model.start_chat(history=[])
